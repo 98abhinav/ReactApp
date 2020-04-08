@@ -7,7 +7,7 @@ Here is my implementation plan:
 3) Automate the deploy process using AWS CLI
 4) Implement local development capabilities using Docker Compose (for easier development and testing)
 
-##Automate the deploy process using AWS CLI
+## Automate the deploy process using AWS CLI
 Okay, now we can take the node_modules folder, index.js(the entry point of the lamba), app.js(the hearth of the application) and routes.js(well the routes :)), pack them to zip, go to the lambda page and upload them. Instead of doing this, we will use aws cli to do the job for us.
 
 Go to the package.json and include the following three lines in scripts part:
